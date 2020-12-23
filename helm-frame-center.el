@@ -1,6 +1,8 @@
 (require 'helm)
 
-;; If using i3wm, add: `for_window [title=".*Helm.*"] floating enable'
+;; I took them from a reddit post.  
+
+;; If using i3, add: `for_window [title=".*Helm.*"] floating enable'
 ;; to your config. 
 
 (defun my-helm-display-frame-center-wrapper (buffer &optional resume)
@@ -11,11 +13,9 @@
 (defun my-helm-display-frame-center (buffer &optional resume)
   "Display `helm-buffer' in a separate frame which centeed in
   parent frame."
-  
   (if (not (display-graphic-p))
       ;; Fallback to default when frames are not usable.
-      (helm-default-display-buffer buffer)
-    
+      (helm-default-display-buffer buffer)    
     (setq helm--buffer-in-new-frame-p t)
     (let* ((parent (selected-frame))
            (frame-pos (frame-position parent))
