@@ -1,5 +1,6 @@
 ;;; helm-frame-center.el --- Orgmode dynamic bullets -*- lexical-binding: t; -*-
 
+;; Author: Not me 
 ;; Url: https://github.com/legalnonsense/org-dynamic-bullets
 ;; Package-Requires: ((emacs "26.1") (org "9.0")
 ;;
