@@ -1,3 +1,11 @@
+;;; helm-frame-center.el --- Orgmode dynamic bullets -*- lexical-binding: t; -*-
+
+;; Url: https://github.com/legalnonsense/org-dynamic-bullets
+;; Package-Requires: ((emacs "26.1") (org "9.0")
+;;
+;; Keywords: helm
+
+
 (require 'helm)
 
 ;; I took them from a reddit post.  
