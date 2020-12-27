@@ -6,6 +6,13 @@
 ;;
 ;; Keywords: helm
 
+;; No copyright 
+
+;; This file is not part of GNU Emacs.
+
+;;; Commentary:
+
+;; Display helm buffer in a child frame. 
 
 (require 'helm)
 
